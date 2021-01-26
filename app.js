@@ -53,10 +53,23 @@ function showError(error){
     notif.innerHTML=`<p>${error.message}</p>`;
 }
 
+
+// showing the spinner when loading
+
+const spinner = document.getElementById("spinner");
+
+function showSpinner() {
+  spinner.className = "show";
+  setTimeout(() => {
+    spinner.className = spinner.className.replace("show", "");
+  }, 1000);
+}
+
 function getWeather(lati,longi){
     let api =`https://api.openweathermap.org/data/2.5/weather?lat=${lati}&lon=${longi}&appid=${key}`;
-
+    showSpinner()
     fetch(api)
+    
         .then(function (response){
             let data = response.json();
             return data
@@ -72,7 +85,7 @@ function getWeather(lati,longi){
 
         .then(function(){
             showweather();
-        })
+        })        
 }
 
 
