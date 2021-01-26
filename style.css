@@ -1,0 +1,52 @@
+body{
+    padding: 0.5rem;
+    /* padding-top: 4rem; */
+    margin: auto;
+    
+}
+.main_cont{
+    text-align: center;
+    border: 2px solid black;
+    padding: 1rem;
+    background-color: wheat;
+    border-radius: 1rem;
+    line-height: 2.2rem;
+    letter-spacing: .2rem;
+    max-width: 720px;
+    width: 320px;
+    margin: auto;
+    position: relative;
+    top:60px;
+}
+
+.temps{
+    font-size: 1.8rem;
+    /* display: flex; */
+    /* flex-direction: column; */
+    justify-content:space-between;
+}
+
+.main_desc{
+    font-size: 1.3rem;
+
+}
+
+.faren{
+    background-color: wheat;
+    border: 2px solid black;: 0.4rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+    padding
+
+.image{
+    /* width: 50%;
+    height: 30%; */
+}
+
+
+
+.desc{
+    text-transform: capitalize;
+}
