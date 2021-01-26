@@ -1,7 +1,9 @@
 // console.log("hello bitch")
 let username = document.querySelector(".username");
-let name = prompt("enter your name: ")
-username.innerHTML = `<p>Hello ${name}<br> Here's what today looks like`
+let name = prompt("Enter your name: ")
+username.innerHTML = `<p style="font-size:1.7rem; color:#778899;">Hello ${name}</p><br>
+<p style="font-size:1.1rem">
+Hope you are having a great day!<br> Here's what Today looks like</p>`
 
 
 
