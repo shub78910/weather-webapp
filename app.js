@@ -1,4 +1,7 @@
 // console.log("hello bitch")
+let username = document.querySelector(".username");
+let name = prompt("enter your name: ")
+username.innerHTML = `<p>Hello ${name}<br> Here's what today looks like`
 
 
 

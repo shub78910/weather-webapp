@@ -13,14 +13,14 @@ body{
     line-height: 2.2rem;
     letter-spacing: .2rem;
     max-width: 720px;
-    width: 320px;
+    width: 90%;
     margin: auto;
     position: relative;
     top:60px;
 }
 
 .temps{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     /* display: flex; */
     /* flex-direction: column; */
     justify-content:space-between;
