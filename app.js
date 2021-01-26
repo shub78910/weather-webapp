@@ -113,5 +113,6 @@ function convert(temp){
 
 
 
-
+//actually wnated to display farenhiet on the same spot as celcius after the user clicks the div, but then
+//but had some problems, therefore settled with two different spaces.
 
