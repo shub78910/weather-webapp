@@ -17,6 +17,7 @@ body{
     margin: auto;
     position: relative;
     top:60px;
+    overflow: hidden;
 }
 
 .temps{
@@ -40,11 +41,48 @@ body{
     cursor: pointer;
 }
 
-.image{
+/* .image{
     /* width: 50%;
-    height: 30%; */
+    height: 30%;
+} */
+
+.wave{
+    opacity: 0.1;
+    position: absolute;
+    top:120%;
+    left: 50%;
+    background-color: white;
+    width: 50rem;
+    height: 50rem;
+    margin-left: -25rem;
+    margin-top: -27rem;
+    transform-origin: 50% 50%;
+    border-radius: 50%;
+    animation: drift 3s infinite linear;
+    z-index: 1;
 }
 
+.wave.three{
+    animation: drift 1s infinite linear;
+    opacity: 0.1;
+    z-index: 2 !important;
+}
+
+.wave.two{
+    animation: drift 2s infinite linear;
+    opacity: 0.1;
+    z-index: 3 !important;
+    border: 3px black solid;
+}
+
+@keyframes drift{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: 360deg;
+    }
+}
 
 
 .desc{
