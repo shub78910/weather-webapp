@@ -1,8 +1,8 @@
 // console.log("hello bitch")
 let username = document.querySelector(".username");
 let name = prompt("Please enter your name and allow the web to access your location. ")
-username.innerHTML = `<p style="font-size:1.7rem; color:#778899;">Hello ${name}</p><br>
-<p style="font-size:1.1rem">
+username.innerHTML = `<p style="font-size:2rem; color:#5a95b3;">Hello ${name}</p><br>
+<p style="font-size:1.3rem">
 Hope you are having a great day!<br> Here's what Today looks like</p>`
 
 
