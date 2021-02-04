@@ -2,6 +2,7 @@ body{
     padding: 0.5rem;
     /* padding-top: 4rem; */
     margin: auto;
+    margin-bottom:7rem;
     
 }
 .main_cont{
@@ -63,16 +64,18 @@ body{
 }
 
 .wave.three{
+    height: 55rem;
     animation: drift 1s infinite linear;
     opacity: 0.1;
     z-index: 2 !important;
 }
 
 .wave.two{
+    height: 60rem;
     animation: drift 2s infinite linear;
     opacity: 0.1;
     z-index: 3 !important;
-    border: 3px black solid;
+    /* border: 3px black solid; */
 }
 
 @keyframes drift{
